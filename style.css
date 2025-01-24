@@ -51,12 +51,17 @@ input {
     font-size: 1rem;
 }
 
+ul li {
+    margin-left: 20px;
+}
+
 li {
     margin-top: 5px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+li input {
+    width: 95%;
+    background: lightgoldenrodyellow;
 }
 
 .card {
@@ -65,10 +70,25 @@ li {
     margin: 10px auto;
     background: lightgoldenrodyellow;
     padding: 15px;
+    list-style: none;
 }
 
 .done {
     text-decoration: line-through;
     color: grey;
     background: lightgreen;
+}
+
+button {
+    margin: 0 3px;
+}
+
+.feature {
+    text-align: right;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
