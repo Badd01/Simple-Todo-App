@@ -36,7 +36,6 @@ button {
     padding: 5px 10px;
     border-radius: 10px;
     transition: background-color 0.5s;
-
 }
 
 button:hover {
@@ -54,4 +53,22 @@ input {
 
 li {
     margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    background: lightgoldenrodyellow;
+    padding: 15px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: grey;
+    background: lightgreen;
 }
